@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.weiboShow_title {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    overflow: hidden;
+    border-bottom: 1px #e5e5e5 solid;
+}
+.weiboShow_title a {
+    color: #0DA4D3;
+    font-size: 12px;
+    text-decoration: none;
+}
+.weiboShow_title img {
+    margin-top: 3px;
+}
+.weiboShow_developer {
+    padding: 13px 0 15px;
+}
+.clearfix {
+    zoom: 1;
+}
+.weiboShow_developer_pic {
+    float: left;
+    margin: 2px 0 0 15px;
+    display: inline;
+}
+.weiboShow_developer_detail {
+    margin-left: 73px;
+}
+
+.weiboShow_developerDetail_name {
+    height: 17px;
+    overflow: hidden;
+    display: inline-block;
+}
+.weiboShow_developerDetail_name dt,.weiboShow_developerDetail_name dd {
+    display: inline-block;
+}
+.weiboShow_developerDetail_name a {
+    font-size: 14px;
+    color: #0DA4D3;
+}
+.WB_approve {
+    width: 16px;
+    height: 15px;
+    margin-left: -3px;
+    background-color: #000;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../img/weibo-renzheng.png);
+}
+.weiboShow_developerDetail_name dd span {
+    font-size: 12px;
+}
+.weiboShow_developerDetail_btn {
+    margin-top: 10px;
+}
+.WB_btnC {
+    padding: 0px 5px;
+    display: inline-block;
+    height: 23px;
+    line-height: 22px;
+    border: 1px solid #d8d8d8;
+    background-color: #fefefe;
+    border-radius: 10%;
+    font-family: "微软雅黑";
+    font-size: 13px;
+}
+.weiboShow_main {
+    border-top: #e5e5e5 1px solid;
+}
+.tie {
+    margin-bottom: 20px;
+    margin: auto;
+    width: 90%;
+    height: 226px;
+    background: #fefefe;
+
+}
